@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital@1&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&family=Source+Code+Pro:ital,wght@0,400;1,500&family=Volkhov:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    /* background-color: red; */
+    background-color: rgb(215, 210, 210);
+    transition: transform 0.3s ease-in;
+    font-family: 'Volkhov', serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 25px;
+}
+
+.sidebar nav li{
+    list-style-type: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: black;
+}
+.main{
+   /* background-color:  yellow; */
+   width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color:  rgb(0, 255, 128); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Volkhov', serif;
+}
+.Hello{
+    font-size: 45px;
+    font-weight: bold;
+}
+.description{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.about{
+    font-size: 22px;
+    
+}
+.devPic img{
+    height: 58vh;
+    border-radius: 150px;
+   
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+     font-weight:bold;
+    justify-content: center;
+    align-items: center;
+}
+.sidebarGo{
+    transform: translate(-443px ,0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 220px;
+} 
+
+@media(max-width: 1615){
+/* *{
+    background-color:rgb(253, 115, 115);
+}
+.sidebar{
+    transform: translate(-443px ,0px);
+    position: absolute;
+} */
+}
